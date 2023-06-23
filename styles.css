@@ -36,7 +36,7 @@ body {
   width: 30%;
   background-color: var(--containerBg);
   padding: 1em;
-  border-radius: 3px;
+  border-radius: 0px;
   font-family: var(--fontFamily);
   color: var(--fg);
   text-align: center;

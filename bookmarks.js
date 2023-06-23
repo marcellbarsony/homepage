@@ -10,12 +10,12 @@ const bookmarks = [
     ],
   },
   {
-    title: "Proton",
+    title: "Cyber [Tools]",
     links: [
-      { name: "Mail", url: "https://proton.me/mail" },
-      { name: "Calendar", url: "https://proton.me/calendar" },
-      { name: "Drive", url: "https://proton.me/drive" },
-      { name: "VPN", url: "https://protonvpn.com" },
+      { name: "CVE [new]", url: "https://cve.org" },
+      { name: "CVE [old]", url: "https://cve.mitre.org" },
+      { name: "Exploit DB", url: "https://exploit-db.com" },
+      { name: "VirusTotal", url: "https://virustotal.com" },
     ],
   },
   {
@@ -27,7 +27,6 @@ const bookmarks = [
       { name: "Gmail", url: "https://mail.google.com" },
       { name: "Maps", url: "https://maps.google.com" },
       { name: "MyMaps", url: "https://mymaps.google.com" },
-      { name: "Translate", url: "https://translate.google.com" },
       { name: "Photos", url: "https://photos.google.com" },
     ],
   },
@@ -76,6 +75,15 @@ const bookmarks = [
     ],
   },
   {
+    title: "Proton",
+    links: [
+      { name: "Mail", url: "https://proton.me/mail" },
+      { name: "Calendar", url: "https://proton.me/calendar" },
+      { name: "Drive", url: "https://proton.me/drive" },
+      { name: "VPN", url: "https://protonvpn.com" },
+    ],
+  },
+  {
     title: "Reddit",
     links: [
       { name: "Front page", url: "https://reddit.com/" },
@@ -101,6 +109,7 @@ const bookmarks = [
     title: "Tools",
     links: [
       { name: "Bitwarden", url: "https://bitwarden.com" },
+      { name: "DeepL Translate", url: "https://deepl.com/translator" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
     ],
   },
