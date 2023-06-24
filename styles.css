@@ -50,7 +50,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   margin: 1em 0em;
 }
 
@@ -63,7 +63,7 @@ body {
   }
   .container > #bookmark-container {
     flex-direction: column;
-    width: 60%;
+    width: 20%;
   }
   #bookmark-container > .bookmark-set {
     width: auto;
@@ -77,15 +77,15 @@ body {
   border-radius: 0px;
   font-family: var(--fontFamily);
   font-size: 0.85rem;
-  width: 12%;
-  height: 20em;
-  margin: 1em 1em;
+  width: 10%;
+  height: 19em;
+  margin: 0.5em 0.5em;
   box-sizing: border-box;
 }
 
 .bookmark-inner-container {
   overflow-y: scroll;
-  height: 80%;
+  height: 90%;
   vertical-align: top;
   padding-right: 6px;
   box-sizing: border-box;

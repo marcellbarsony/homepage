@@ -1,8 +1,9 @@
 const bookmarks = [
+
   {
     title: "Banking",
     links: [
-      { name: "OTP Portal", url: "https://magan.szepkartya.otpportalok.hu" },
+      { name: "OTP [SZEP]", url: "https://magan.szepkartya.otpportalok.hu" },
       { name: "Revolut", url: "https://revolut.com" },
       { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
     ],
@@ -23,11 +24,29 @@ const bookmarks = [
   {
     title: "Cyber [Tools]",
     links: [
-      { name: "CVE [new]", url: "https://cve.org" },
-      { name: "CVE [old]", url: "https://cve.mitre.org" },
+      { name: "CVE", url: "https://cve.mitre.org" },
+      { name: "CVE [beta]", url: "https://cve.org" },
       { name: "Exploit DB", url: "https://exploit-db.com" },
       { name: "Revshells", url: "https://revshells.com" },
       { name: "VirusTotal", url: "https://virustotal.com" },
+    ],
+  },
+  {
+    title: "Cyber [Network]",
+    links: [
+      { name: "Calculator [Subnet]", url: "https://solarwinds.com/free-tools/advanced-subnet-calculator" },
+      { name: "DownDetector", url: "https://downdetector.com" },
+      { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
+    ],
+  },
+  {
+    title: "Docs",
+    links: [
+      { name: "Arch Wiki", url: "https://wiki.archlinux.org" },
+      { name: "Gentoo", url: "https://wiki.gentoo.org" },
+      { name: "Linux Documentation", url: "https://linux.die.net" },
+      { name: "Wikipedia", url: "https://wikipedia.org" },
+      { name: "Qtile", url: "https://qtile.readthedocs.io/en/stable" },
     ],
   },
   {
@@ -55,10 +74,10 @@ const bookmarks = [
     title: "Linux",
     links: [
       { name: "Arch", url: "https://archlinux.org" },
-      { name: "Arch AUR", url: "https://aur.archlinux.org" },
-      { name: "Arch Wiki", url: "https://wiki.archlinux.org" },
+      { name: "Arch [AUR]", url: "https://aur.archlinux.org" },
       { name: "Crontab guru", url: "https://crontab.guru" },
       { name: "Distrowatch", url: "https://distrowatch.com" },
+      { name: "Kernel", url: "https://kernel.org" },
       { name: "Linux Journey", url: "https://linuxjourney.com" },
     ],
   },
@@ -139,10 +158,11 @@ const bookmarks = [
     title: "Tools",
     links: [
       { name: "Bitwarden", url: "https://vault.bitwarden.com" },
-      { name: "DeepL Translate", url: "https://deepl.com/translator" },
-      { name: "DownDetector", url: "https://downdetector.com" },
-      { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
+      { name: "Calculator", url: "https://geogebra.org/scientific" },
+      { name: "OpenStreetMap", url: "https://openstreetmap.org" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
+      { name: "AlternativeTo Tools", url: "https://atlernativeto.net" },
+      { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
     ],
   },
 ];
