@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 :root {
-  --bg: #432bbb;
+  --bg: #111111;
   --fg: #ffffff;
   --secondaryFg: #b3b3b3;
   --containerBg: #272727;
@@ -77,7 +77,7 @@ body {
   border-radius: 0px;
   font-family: var(--fontFamily);
   font-size: 0.85rem;
-  width: 15%;
+  width: 12%;
   height: 20em;
   margin: 1em 1em;
   box-sizing: border-box;

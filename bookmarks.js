@@ -1,9 +1,20 @@
 const bookmarks = [
   {
+    title: "Banking",
+    links: [
+      { name: "OTP Portal", url: "https://magan.szepkartya.otpportalok.hu" },
+      { name: "Revolut", url: "https://revolut.com" },
+      { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
+    ],
+  },
+  {
     title: "Cyber [CTF]",
     links: [
+      { name: "bWAPP", url: "https://itsecgames.com" },
+      { name: "CTFtime", url: "https://ctftime.org" },
       { name: "CyberDefenders", url: "https://cyberdefenders.org" },
       { name: "Hack The Box", url: "https://hackthebox.com" },
+      { name: "Hack This Site", url: "https://hackthissite.org" },
       { name: "Portswigger", url: "https://portswigger.net" },
       { name: "TryHackMe", url: "https://tryhackme.com" },
       { name: "Vulnhub", url: "https://vulnhub.com" },
@@ -15,6 +26,7 @@ const bookmarks = [
       { name: "CVE [new]", url: "https://cve.org" },
       { name: "CVE [old]", url: "https://cve.mitre.org" },
       { name: "Exploit DB", url: "https://exploit-db.com" },
+      { name: "Revshells", url: "https://revshells.com" },
       { name: "VirusTotal", url: "https://virustotal.com" },
     ],
   },
@@ -31,12 +43,23 @@ const bookmarks = [
     ],
   },
   {
+    title: "Gov",
+    links: [
+      { name: "Konzuli szolgalat", url: "https://konzuliszolgalat.kormany.hu" },
+      { name: "NAV", url: "https://nav.gov.hu" },
+      { name: "Ugyfelkapu", url: "https://ugyfelkapu.gov.hu" },
+      { name: "Ujbuda", url: "https://ujbuda.hu" },
+    ],
+  },
+  {
     title: "Linux",
     links: [
       { name: "Arch", url: "https://archlinux.org" },
       { name: "Arch AUR", url: "https://aur.archlinux.org" },
       { name: "Arch Wiki", url: "https://wiki.archlinux.org" },
+      { name: "Crontab guru", url: "https://crontab.guru" },
       { name: "Distrowatch", url: "https://distrowatch.com" },
+      { name: "Linux Journey", url: "https://linuxjourney.com" },
     ],
   },
   {
@@ -45,13 +68,16 @@ const bookmarks = [
       { name: "Facebook", url: "https://facebook.com" },
       { name: "Instagram", url: "https://instagram.com" },
       { name: "Messenger", url: "https://messenger.com" },
+      { name: "Messages", url: "https://facebook.com/messages" },
     ],
   },
   {
     title: "Microsoft",
     links: [
+      { name: "Accounts", url: "https://account.microsoft.com" },
       { name: "ChatGPT", url: "https://chat.openai.com" },
       { name: "GitHub", url: "https://github.com" },
+      { name: "LinkedIn", url: "https://linkedin.com" },
       { name: "OneDrive", url: "https://live.onedrive.com" },
     ],
   },
@@ -59,6 +85,7 @@ const bookmarks = [
     title: "Media",
     links: [
       { name: "Spotify", url: "https://open.spotify.com" },
+      { name: "Spotify for pets", url: "https://pets.byspotify.com" },
       { name: "Youtube", url: "https://youtube.com" },
     ],
   },
@@ -71,6 +98,7 @@ const bookmarks = [
       { name: "The Daily Swig", url: "https://portswigger.net/daily-swig" },
       { name: "Telex", url: "https://telex.hu" },
       { name: "The Hacker News", url: "https://thehackernews.com" },
+      { name: "Threatpost", url: "https://threatpost.com" },
       { name: "Qubit", url: "https://qubit.hu" },
     ],
   },
@@ -89,6 +117,7 @@ const bookmarks = [
       { name: "Front page", url: "https://reddit.com/" },
       { name: "/r/archlinux", url: "https://reddit.com/r/archlinux" },
       { name: "/r/hungary", url: "https://reddit.com/r/hungary" },
+      { name: "/r/linux", url: "https://reddit.com/r/linux" },
       { name: "/r/neovim", url: "https://reddit.com/r/neovim" },
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
       { name: "/r/qtile", url: "https://reddit.com/r/qtile" },
@@ -100,6 +129,7 @@ const bookmarks = [
       { name: "Discord", url: "https://discordapp.com" },
       { name: "Facebook", url: "https://facebook.com" },
       { name: "Instagram", url: "https://instagram.com" },
+      { name: "LinkedIn", url: "https://linkedin.com" },
       { name: "Mastodon", url: "https://mastodon.com" },
       { name: "Nitter", url: "https://nitter.com" },
       { name: "Twitter", url: "https://twitter.com" },
@@ -108,8 +138,10 @@ const bookmarks = [
   {
     title: "Tools",
     links: [
-      { name: "Bitwarden", url: "https://bitwarden.com" },
+      { name: "Bitwarden", url: "https://vault.bitwarden.com" },
       { name: "DeepL Translate", url: "https://deepl.com/translator" },
+      { name: "DownDetector", url: "https://downdetector.com" },
+      { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
     ],
   },
