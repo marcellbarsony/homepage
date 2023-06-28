@@ -170,9 +170,13 @@ const bookmarks = [
     title: "Rust",
     links: [
       { name: "Rust", url: "https://rust-lang.org" },
-      { name: "Docs [Examples]", url: "https://doc.rust-lang.org/rust-by-example" },
+      { name: "Crates", url: "https://crates.io" },
+      { name: "Docs [Examples]", url: "https://doc.rust-lang.org/stable/rust-by-example" },
+      { name: "Docs [Std library]", url: "https://doc.rust-lang.org/stable/std" },
       { name: "Docs [The Book]", url: "https://doc.rust-lang.org/book" },
+      { name: "Foundation", url: "https://foundation.rust-lang.org" },
       { name: "Learn Rust", url: "https://rust-lang.org/learn" },
+      { name: "Reddit", url: "https://reddit.com/r/rust" },
     ],
   },
   {
