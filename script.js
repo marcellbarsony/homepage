@@ -1,8 +1,10 @@
 // TIME
 function getTime() {
-  let date = new Date(),
-    min = date.getMinutes(),
-    sec = date.getSeconds(),
+  let date = new Date();
+  let timezoneOffset = date.getTimezoneOffset() / 60;
+  date.setHours(date.getHours() + timezoneOffset);
+    min = date.getMinutes();
+    sec = date.getSeconds();
     hour = date.getHours();
 
   return (

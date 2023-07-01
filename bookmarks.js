@@ -201,9 +201,15 @@ const bookmarks = [
     title: "Tools [Privacy]",
     links: [
       { name: "AlternativeTo Tools", url: "https://alternativeto.net" },
-      { name: "Browserleaks", url: "https://Browserleaks.com" },
-      { name: "Device Info", url: "https://deviceinfo.me" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
+    ],
+  },
+  {
+    title: "Tools [Online Privacy]",
+    links: [
+      { name: "Browserleaks", url: "https://browserleaks.com" },
+      { name: "Device Info", url: "https://deviceinfo.me" },
+      { name: "IP Leaks Info", url: "https://ipleak.net" },
       { name: "SSL Labs", url: "https://ssllabs.com" },
     ],
   },
