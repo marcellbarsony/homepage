@@ -1,5 +1,4 @@
 const bookmarks = [
-
   {
     title: "Arch",
     links: [
@@ -43,6 +42,7 @@ const bookmarks = [
   {
     title: "Cyber [Network]",
     links: [
+      { name: "Conversion [Number]", url: "https://www.rapidtables.com/convert/number/index.html" },
       { name: "DownDetector", url: "https://downdetector.com" },
       { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
       { name: "Subnet Calculator", url: "https://solarwinds.com/free-tools/advanced-subnet-calculator" },
@@ -55,6 +55,7 @@ const bookmarks = [
       { name: "HackerNoon", url: "https://hackernoon.com" },
       { name: "The Daily Swig", url: "https://portswigger.net/daily-swig" },
       { name: "The Hacker News", url: "https://thehackernews.com" },
+      { name: "The Record", url: "https://therecord.media" },
       { name: "Threatpost", url: "https://threatpost.com" },
     ],
   },
@@ -171,12 +172,19 @@ const bookmarks = [
     links: [
       { name: "Rust", url: "https://rust-lang.org" },
       { name: "Crates", url: "https://crates.io" },
-      { name: "Docs [Examples]", url: "https://doc.rust-lang.org/stable/rust-by-example" },
-      { name: "Docs [Std library]", url: "https://doc.rust-lang.org/stable/std" },
-      { name: "Docs [The Book]", url: "https://doc.rust-lang.org/book" },
       { name: "Foundation", url: "https://foundation.rust-lang.org" },
-      { name: "Learn Rust", url: "https://rust-lang.org/learn" },
+      { name: "Libraries", url: "https://lib.rs" },
       { name: "Reddit", url: "https://reddit.com/r/rust" },
+    ],
+  },
+  {
+    title: "Rust [Docs]",
+    links: [
+      { name: "Crates", url: "https://docs.rs" },
+      { name: "Examples", url: "https://doc.rust-lang.org/stable/rust-by-example" },
+      { name: "Learn Rust", url: "https://rust-lang.org/learn" },
+      { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
+      { name: "The Book", url: "https://doc.rust-lang.org/book" },
     ],
   },
   {
@@ -192,15 +200,18 @@ const bookmarks = [
     title: "Tools",
     links: [
       { name: "Bitwarden", url: "https://vault.bitwarden.com" },
-      { name: "Calculator", url: "https://geogebra.org/scientific" },
+      { name: "Calculator [Geogebra]", url: "https://geogebra.org/scientific" },
+      { name: "Calculator [Rapidtables]", url: "https://www.rapidtables.com/calc/math/calculator.html" },
       { name: "OpenStreetMap", url: "https://openstreetmap.org" },
+      { name: "Rapidtables", url: "https://www.rapidtables.com" },
       { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
     ],
   },
   {
     title: "Tools [Privacy]",
     links: [
-      { name: "AlternativeTo Tools", url: "https://alternativeto.net" },
+      { name: "Alternative front-ends", url: "https://github.com/mendel5/alternative-front-ends" },
+      { name: "AlternativeTo", url: "https://alternativeto.net" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
     ],
   },
@@ -219,6 +230,12 @@ const bookmarks = [
       { name: "Documentation", url: "https://qtile.readthedocs.io/en/stable" },
       { name: "GitHub", url: "https://github.com/qtile/qtile" },
       { name: "Reddit", url: "https://reddit.com/r/qtile" },
+    ],
+  },
+  {
+    title: "YouTube",
+    links: [
+      { name: "Documentation", url: "https://qtile.readthedocs.io/en/stable" },
     ],
   },
 ];
