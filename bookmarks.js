@@ -37,6 +37,7 @@ const bookmarks = [
       { name: "Exploit DB", url: "https://exploit-db.com" },
       { name: "Revshells", url: "https://revshells.com" },
       { name: "VirusTotal", url: "https://virustotal.com" },
+      { name: "Emkei's Fake Mailer", url: "https://emkei.cz" },
     ],
   },
   {
@@ -53,7 +54,6 @@ const bookmarks = [
     links: [
       { name: "BleepingComputer", url: "https://bleepingcomputer.com" },
       { name: "HackerNoon", url: "https://hackernoon.com" },
-      { name: "The Daily Swig", url: "https://portswigger.net/daily-swig" },
       { name: "The Hacker News", url: "https://thehackernews.com" },
       { name: "The Record", url: "https://therecord.media" },
       { name: "Threatpost", url: "https://threatpost.com" },
@@ -71,6 +71,7 @@ const bookmarks = [
     title: "Google",
     links: [
       { name: "Accounts", url: "https://accounts.google.com" },
+      { name: "Bard", url: "https://bard.google.com" },
       { name: "Drive", url: "https://drive.google.com" },
       { name: "Flights", url: "https://flights.google.com" },
       { name: "Gmail", url: "https://mail.google.com" },
@@ -202,6 +203,7 @@ const bookmarks = [
       { name: "Bitwarden", url: "https://vault.bitwarden.com" },
       { name: "Calculator [Geogebra]", url: "https://geogebra.org/scientific" },
       { name: "Calculator [Rapidtables]", url: "https://www.rapidtables.com/calc/math/calculator.html" },
+      { name: "Draw.IO", url: "https://app.diagrams.net/" },
       { name: "OpenStreetMap", url: "https://openstreetmap.org" },
       { name: "Rapidtables", url: "https://www.rapidtables.com" },
       { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
