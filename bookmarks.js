@@ -206,6 +206,7 @@ const bookmarks = [
       { name: "Draw.IO", url: "https://app.diagrams.net/" },
       { name: "OpenStreetMap", url: "https://openstreetmap.org" },
       { name: "Rapidtables", url: "https://www.rapidtables.com" },
+      { name: "Regex Tester", url: "https://www.regextester.com" },
       { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
     ],
   },
@@ -218,12 +219,20 @@ const bookmarks = [
     ],
   },
   {
-    title: "Tools [Online Privacy]",
+    title: "Tools [Privacy - Online]",
     links: [
       { name: "Browserleaks", url: "https://browserleaks.com" },
       { name: "Device Info", url: "https://deviceinfo.me" },
       { name: "IP Leaks Info", url: "https://ipleak.net" },
       { name: "SSL Labs", url: "https://ssllabs.com" },
+    ],
+  },
+  {
+    title: "Tools [Regex]",
+    links: [
+      { name: "Regex [RegExr]", url: "https://regexr.com" },
+      { name: "Regex [regex101]", url: "https://regex101.com" },
+      { name: "Regex [Regex Tester]", url: "https://regextester.com" },
     ],
   },
   {
