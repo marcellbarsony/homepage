@@ -172,20 +172,29 @@ const bookmarks = [
     title: "Rust",
     links: [
       { name: "Rust", url: "https://rust-lang.org" },
-      { name: "Crates", url: "https://crates.io" },
       { name: "Foundation", url: "https://foundation.rust-lang.org" },
-      { name: "Libraries", url: "https://lib.rs" },
       { name: "Reddit", url: "https://reddit.com/r/rust" },
     ],
   },
   {
     title: "Rust [Docs]",
     links: [
-      { name: "Crates", url: "https://docs.rs" },
-      { name: "Examples", url: "https://doc.rust-lang.org/stable/rust-by-example" },
       { name: "Learn Rust", url: "https://rust-lang.org/learn" },
+      { name: "Rust by example", url: "https://doc.rust-lang.org/stable/rust-by-example" },
+      { name: "Rust Documentation", url: "https://doc.rust-lang.org/stable" },
+      { name: "The Rust Book", url: "https://doc.rust-lang.org/book" },
+      { name: "The Rust Edition Guide", url: "https://doc.rust-lang.org/edition-guide/index.html" },
+      { name: "The Rust Reference", url: "https://doc.rust-lang.org/stable/reference/index.html" },
+      { name: "The Rust Style Guide", url: "https://doc.rust-lang.org/stable/style-guide/index.html" },
+    ],
+  },
+  {
+    title: "Rust [Libs]",
+    links: [
+      { name: "Crates", url: "https://crates.io" },
+      { name: "Crate docs", url: "https://docs.rs" },
+      { name: "Libraries", url: "https://lib.rs" },
       { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
-      { name: "The Book", url: "https://doc.rust-lang.org/book" },
     ],
   },
   {
