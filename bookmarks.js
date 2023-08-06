@@ -206,7 +206,6 @@ const bookmarks = [
       { name: "Draw.IO", url: "https://app.diagrams.net/" },
       { name: "OpenStreetMap", url: "https://openstreetmap.org" },
       { name: "Rapidtables", url: "https://www.rapidtables.com" },
-      { name: "Regex Tester", url: "https://www.regextester.com" },
       { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
     ],
   },
@@ -215,24 +214,19 @@ const bookmarks = [
     links: [
       { name: "Alternative front-ends", url: "https://github.com/mendel5/alternative-front-ends" },
       { name: "AlternativeTo", url: "https://alternativeto.net" },
-      { name: "Privacy Tools", url: "https://privacytools.io" },
-    ],
-  },
-  {
-    title: "Tools [Privacy - Online]",
-    links: [
       { name: "Browserleaks", url: "https://browserleaks.com" },
       { name: "Device Info", url: "https://deviceinfo.me" },
       { name: "IP Leaks Info", url: "https://ipleak.net" },
+      { name: "Privacy Tools", url: "https://privacytools.io" },
       { name: "SSL Labs", url: "https://ssllabs.com" },
     ],
   },
   {
     title: "Tools [Regex]",
     links: [
-      { name: "Regex [RegExr]", url: "https://regexr.com" },
-      { name: "Regex [regex101]", url: "https://regex101.com" },
-      { name: "Regex [Regex Tester]", url: "https://regextester.com" },
+      { name: "Regex101", url: "https://regex101.com" },
+      { name: "RegExr", url: "https://regexr.com" },
+      { name: "Regex Tester", url: "https://regextester.com" },
     ],
   },
   {
@@ -241,12 +235,6 @@ const bookmarks = [
       { name: "Documentation", url: "https://qtile.readthedocs.io/en/stable" },
       { name: "GitHub", url: "https://github.com/qtile/qtile" },
       { name: "Reddit", url: "https://reddit.com/r/qtile" },
-    ],
-  },
-  {
-    title: "YouTube",
-    links: [
-      { name: "Documentation", url: "https://qtile.readthedocs.io/en/stable" },
     ],
   },
 ];
