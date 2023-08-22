@@ -121,6 +121,7 @@ const bookmarks = [
     title: "Microsoft",
     links: [
       { name: "Accounts", url: "https://account.microsoft.com" },
+      { name: "Azure Portal", url: "http://portal.azure.com" },
       { name: "ChatGPT", url: "https://chat.openai.com" },
       { name: "GitHub", url: "https://github.com" },
       { name: "LinkedIn", url: "https://linkedin.com" },
@@ -223,6 +224,7 @@ const bookmarks = [
     links: [
       { name: "Alternative front-ends", url: "https://github.com/mendel5/alternative-front-ends" },
       { name: "AlternativeTo", url: "https://alternativeto.net" },
+      { name: "Am I Unique?", url: "https://amiunique.com" },
       { name: "Browserleaks", url: "https://browserleaks.com" },
       { name: "Device Info", url: "https://deviceinfo.me" },
       { name: "IP Leaks Info", url: "https://ipleak.net" },
