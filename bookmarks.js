@@ -34,10 +34,11 @@ const bookmarks = [
     links: [
       { name: "CVE", url: "https://cve.mitre.org" },
       { name: "CVE [beta]", url: "https://cve.org" },
+      { name: "Emkei's Fake Mailer", url: "https://emkei.cz" },
       { name: "Exploit DB", url: "https://exploit-db.com" },
+      { name: "OTX AlienVault", url: "https://otx.alienvault.com" },
       { name: "Revshells", url: "https://revshells.com" },
       { name: "VirusTotal", url: "https://virustotal.com" },
-      { name: "Emkei's Fake Mailer", url: "https://emkei.cz" },
     ],
   },
   {
@@ -103,6 +104,7 @@ const bookmarks = [
   {
     title: "Media",
     links: [
+      { name: "Odysee", url: "https://odysee.com" },
       { name: "Spotify", url: "https://open.spotify.com" },
       { name: "Spotify for pets", url: "https://pets.byspotify.com" },
       { name: "Youtube", url: "https://youtube.com" },
@@ -202,7 +204,7 @@ const bookmarks = [
     title: "Social",
     links: [
       { name: "Discord", url: "https://discordapp.com" },
-      { name: "Mastodon", url: "https://mastodon.com" },
+      { name: "Mastodon", url: "https://mastodon.social" },
       { name: "Nitter", url: "https://nitter.com" },
       { name: "Twitter", url: "https://twitter.com" },
     ],
@@ -213,7 +215,7 @@ const bookmarks = [
       { name: "Bitwarden", url: "https://vault.bitwarden.com" },
       { name: "Calculator [Geogebra]", url: "https://geogebra.org/scientific" },
       { name: "Calculator [Rapidtables]", url: "https://www.rapidtables.com/calc/math/calculator.html" },
-      { name: "Draw.IO", url: "https://app.diagrams.net/" },
+      { name: "Draw.io", url: "https://app.diagrams.net/" },
       { name: "OpenStreetMap", url: "https://openstreetmap.org" },
       { name: "Rapidtables", url: "https://www.rapidtables.com" },
       { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
