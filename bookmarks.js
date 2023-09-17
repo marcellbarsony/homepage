@@ -114,9 +114,9 @@ const bookmarks = [
     title: "Meta",
     links: [
       { name: "Facebook", url: "https://facebook.com" },
+      { name: "Facebook Messages", url: "https://facebook.com/messages" },
       { name: "Instagram", url: "https://instagram.com" },
       { name: "Messenger", url: "https://messenger.com" },
-      { name: "Messages", url: "https://facebook.com/messages" },
     ],
   },
   {
@@ -226,7 +226,7 @@ const bookmarks = [
     links: [
       { name: "Alternative front-ends", url: "https://github.com/mendel5/alternative-front-ends" },
       { name: "AlternativeTo", url: "https://alternativeto.net" },
-      { name: "Am I Unique?", url: "https://amiunique.com" },
+      { name: "Am I Unique?", url: "https://amiunique.org" },
       { name: "Browserleaks", url: "https://browserleaks.com" },
       { name: "Device Info", url: "https://deviceinfo.me" },
       { name: "IP Leaks Info", url: "https://ipleak.net" },
