@@ -2,7 +2,7 @@ const bookmarks = [
   {
     title: "Arch",
     links: [
-      { name: "Arch Linux", url: "https://archlinux.org" },
+      { name: "Linux", url: "https://archlinux.org" },
       { name: "AUR", url: "https://aur.archlinux.org" },
       { name: "Reddit", url: "https://reddit.com/r/archlinux" },
       { name: "Wiki", url: "https://wiki.archlinux.org" },
@@ -124,9 +124,11 @@ const bookmarks = [
     links: [
       { name: "Accounts", url: "https://account.microsoft.com" },
       { name: "Azure Portal", url: "http://portal.azure.com" },
+      { name: "Azure Dev", url: "http://dev.azure.com" },
       { name: "ChatGPT", url: "https://chat.openai.com" },
       { name: "GitHub", url: "https://github.com" },
       { name: "LinkedIn", url: "https://linkedin.com" },
+      { name: "LinkedIn Learning", url: "https://linkedin.com/learning" },
       { name: "OneDrive", url: "https://live.onedrive.com" },
     ],
   },
