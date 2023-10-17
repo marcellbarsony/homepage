@@ -224,6 +224,15 @@ const bookmarks = [
     ],
   },
   {
+    title: "Tools [AI]",
+    links: [
+      { name: "Bard", url: "https://bard.google.com" },
+      { name: "Bing", url: "https://bing.com/new" },
+      { name: "Bing Image Creator", url: "https://bing.com/images/create" },
+      { name: "ChatGPT", url: "https://chat.openai.com" },
+    ],
+  },
+  {
     title: "Tools [Privacy]",
     links: [
       { name: "Alternative front-ends", url: "https://github.com/mendel5/alternative-front-ends" },
