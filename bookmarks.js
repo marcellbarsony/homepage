@@ -45,7 +45,9 @@ const bookmarks = [
     title: "Cyber [Network]",
     links: [
       { name: "Conversion [Number]", url: "https://www.rapidtables.com/convert/number/index.html" },
+      { name: "DNS leak test", url: "https://dnsleaktest.com" },
       { name: "DownDetector", url: "https://downdetector.com" },
+      { name: "ip.me", url: "https://ip.me" },
       { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
       { name: "Subnet Calculator", url: "https://solarwinds.com/free-tools/advanced-subnet-calculator" },
     ],
@@ -105,6 +107,7 @@ const bookmarks = [
     title: "Media",
     links: [
       { name: "Odysee", url: "https://odysee.com" },
+      { name: "Piped", url: "https://piped.video" },
       { name: "Spotify", url: "https://open.spotify.com" },
       { name: "Spotify for pets", url: "https://pets.byspotify.com" },
       { name: "Youtube", url: "https://youtube.com" },
