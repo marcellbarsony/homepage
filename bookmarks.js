@@ -110,6 +110,7 @@ const bookmarks = [
       { name: "Piped", url: "https://piped.video" },
       { name: "Spotify", url: "https://open.spotify.com" },
       { name: "Spotify for pets", url: "https://pets.byspotify.com" },
+      { name: "Twitch", url: "https://twitch.tv" },
       { name: "Youtube", url: "https://youtube.com" },
     ],
   },
