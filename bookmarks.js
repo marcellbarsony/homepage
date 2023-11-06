@@ -25,6 +25,7 @@ const bookmarks = [
       { name: "Hack The Box", url: "https://hackthebox.com" },
       { name: "Hack This Site", url: "https://hackthissite.org" },
       { name: "Portswigger", url: "https://portswigger.net" },
+      { name: "PicoCTF", url: "https://play.picoctf.org" },
       { name: "TryHackMe", url: "https://tryhackme.com" },
       { name: "Vulnhub", url: "https://vulnhub.com" },
     ],
@@ -204,6 +205,13 @@ const bookmarks = [
       { name: "Crate docs", url: "https://docs.rs" },
       { name: "Libraries", url: "https://lib.rs" },
       { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
+    ],
+  },
+  {
+    title: "Scambait",
+    links: [
+      { name: "r/Scambait", url: "https://www.reddit.com/r/scambait" },
+      { name: "Scammer Info", url: "https://scammer.info" },
     ],
   },
   {
