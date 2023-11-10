@@ -50,6 +50,7 @@ const bookmarks = [
       { name: "DownDetector", url: "https://downdetector.com" },
       { name: "ip.me", url: "https://ip.me" },
       { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
+      { name: "MX Toolbox", url: "https://mxtoolbox.com" },
       { name: "Subnet Calculator", url: "https://solarwinds.com/free-tools/advanced-subnet-calculator" },
     ],
   },
