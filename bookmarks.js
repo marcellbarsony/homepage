@@ -263,6 +263,7 @@ const bookmarks = [
   {
     title: "Tools [Regex]",
     links: [
+      { name: "Debuggex", url: "https://debuggex.com" },
       { name: "Regex101", url: "https://regex101.com" },
       { name: "RegExr", url: "https://regexr.com" },
       { name: "Regex Tester", url: "https://regextester.com" },
