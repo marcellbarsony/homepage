@@ -110,6 +110,7 @@ const bookmarks = [
     links: [
       { name: "Odysee", url: "https://odysee.com" },
       { name: "Piped", url: "https://piped.video" },
+      { name: "Rumble", url: "https://rumble.com" },
       { name: "Spotify", url: "https://open.spotify.com" },
       { name: "Spotify for pets", url: "https://pets.byspotify.com" },
       { name: "Twitch", url: "https://twitch.tv" },
