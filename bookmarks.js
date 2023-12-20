@@ -27,7 +27,7 @@ const bookmarks = [
       { name: "Portswigger", url: "https://portswigger.net" },
       { name: "PicoCTF", url: "https://play.picoctf.org" },
       { name: "TryHackMe", url: "https://tryhackme.com" },
-      { name: "Vulnhub", url: "https://vulnhub.com" },
+      { name: "VulnHub", url: "https://vulnhub.com" },
     ],
   },
   {
@@ -58,6 +58,7 @@ const bookmarks = [
     title: "Cyber [News]",
     links: [
       { name: "BleepingComputer", url: "https://bleepingcomputer.com" },
+      { name: "Cybernews", url: "https://cybernews.com" },
       { name: "HackerNoon", url: "https://hackernoon.com" },
       { name: "The Hacker News", url: "https://thehackernews.com" },
       { name: "The Record", url: "https://therecord.media" },
@@ -67,6 +68,7 @@ const bookmarks = [
   {
     title: "Docs",
     links: [
+      { name: "Cheat.sh", url: "https://cheat.sh" },
       { name: "Gentoo Wiki", url: "https://wiki.gentoo.org" },
       { name: "Linux Documentation", url: "https://linux.die.net" },
       { name: "Wikipedia", url: "https://wikipedia.org" },
