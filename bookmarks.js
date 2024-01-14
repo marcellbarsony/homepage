@@ -196,6 +196,7 @@ const bookmarks = [
       { name: "Learn Rust", url: "https://rust-lang.org/learn" },
       { name: "Rust by example", url: "https://doc.rust-lang.org/stable/rust-by-example" },
       { name: "Rust Documentation", url: "https://doc.rust-lang.org/stable" },
+      { name: "Rust Documentation [Std]", url: "https://doc.rust-lang.org/stable/std" },
       { name: "The Rust Book", url: "https://doc.rust-lang.org/book" },
       { name: "The Rust Edition Guide", url: "https://doc.rust-lang.org/edition-guide/index.html" },
       { name: "The Rust Reference", url: "https://doc.rust-lang.org/stable/reference/index.html" },
@@ -205,9 +206,9 @@ const bookmarks = [
   {
     title: "Rust [Libs]",
     links: [
-      { name: "Crates", url: "https://crates.io" },
-      { name: "Crate docs", url: "https://docs.rs" },
-      { name: "Libraries", url: "https://lib.rs" },
+      { name: "crates.io", url: "https://crates.io" },
+      { name: "docs.rs", url: "https://docs.rs" },
+      { name: "lib.rs", url: "https://lib.rs" },
       { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
     ],
   },
