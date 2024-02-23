@@ -1,4 +1,18 @@
 const bookmarks = [
+    {
+    title: "Android",
+    links: [
+      { name: "Android Developer", url: "https://developer.android.com/" },
+      { name: "Android Open Source [Docs]", url: "https://source.android.com/docs/setup/" },
+      { name: "Arch Wiki - Android", url: "https://wiki.archlinux.org/title/android" },
+      { name: "Arch Wiki - ADB", url: "https://wiki.archlinux.org/title/Android_Debug_Bridge" },
+      { name: "Arch Wiki - MTP", url: "https://wiki.archlinux.org/title/android" },
+      { name: "microG", url: "https://microg.org/" },
+      { name: "Odin Download", url: "https://odindownload.com/" },
+      { name: "XDA Developers", url: "https://www.xda-developers.com/" },
+      { name: "XDA Forums", url: "https://xdaforums.com/" },
+    ],
+  },
   {
     title: "Arch",
     links: [
