@@ -1,12 +1,17 @@
 const bookmarks = [
-    {
+  {
     title: "Android",
     links: [
       { name: "Android Developer", url: "https://developer.android.com/" },
       { name: "Android Open Source [Docs]", url: "https://source.android.com/docs/setup/" },
+      { name: "APK - APKMirror", url: "https://developer.android.com/" },
+      { name: "APK - APKPure", url: "https://apkpure.net" },
+      { name: "APK - Liteapks", url: "https://liteapks.com/" },
+      { name: "APK - Aptoide", url: "https://en.aptoide.com/" },
       { name: "Arch Wiki - Android", url: "https://wiki.archlinux.org/title/android" },
       { name: "Arch Wiki - ADB", url: "https://wiki.archlinux.org/title/Android_Debug_Bridge" },
       { name: "Arch Wiki - MTP", url: "https://wiki.archlinux.org/title/android" },
+      { name: "FixYourAndroid", url: "https://fixyourandroid.com/" },
       { name: "microG", url: "https://microg.org/" },
       { name: "Odin Download", url: "https://odindownload.com/" },
       { name: "XDA Developers", url: "https://www.xda-developers.com/" },
@@ -30,6 +35,7 @@ const bookmarks = [
       { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
     ],
   },
+  // {{{ CYBER
   {
     title: "Cyber [CTF]",
     links: [
@@ -79,6 +85,7 @@ const bookmarks = [
       { name: "Threatpost", url: "https://threatpost.com" },
     ],
   },
+  // }}}
   {
     title: "Docs",
     links: [
@@ -196,6 +203,7 @@ const bookmarks = [
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
     ],
   },
+  // {{{ RUST
   {
     title: "Rust",
     links: [
@@ -226,6 +234,7 @@ const bookmarks = [
       { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
     ],
   },
+  // }}}
   {
     title: "Scambait",
     links: [
@@ -242,6 +251,7 @@ const bookmarks = [
       { name: "Twitter", url: "https://twitter.com" },
     ],
   },
+  // {{{ TOOLS
   {
     title: "Tools",
     links: [
@@ -287,6 +297,7 @@ const bookmarks = [
       { name: "Regex Tester", url: "https://regextester.com" },
     ],
   },
+  // }}}
   {
     title: "Qtile",
     links: [
