@@ -19,6 +19,13 @@ const bookmarks = [
     ],
   },
   {
+    title: "Assembly",
+    links: [
+      { name: "Compiler Explorer", url: "https://godbolt.org" },
+      { name: "Compiler Explorer GitHub", url: "https://github.com/compiler-explorer/compiler-explorer" },
+    ],
+  },
+  {
     title: "Arch",
     links: [
       { name: "Linux", url: "https://archlinux.org" },
@@ -33,6 +40,12 @@ const bookmarks = [
       { name: "OTP SZEP", url: "https://magan.szepkartya.otpportalok.hu" },
       { name: "Revolut", url: "https://revolut.com" },
       { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
+    ],
+  },
+  {
+    title: "C lang",
+    links: [
+      { name: "C gibberish to English", url: "https://cdecl.org/" },
     ],
   },
   // {{{ CYBER
@@ -285,6 +298,7 @@ const bookmarks = [
       { name: "FilterLists", url: "https://filterlists.com" },
       { name: "IP Leaks Info", url: "https://ipleak.net" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
+      { name: "https://guide.yuuire.com/", url: "Yuuire Guide" },
       { name: "SSL Labs", url: "https://ssllabs.com" },
     ],
   },
