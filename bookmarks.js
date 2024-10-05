@@ -1,4 +1,5 @@
 const bookmarks = [
+  // Android {{{
   {
     title: "Android",
     links: [
@@ -18,6 +19,9 @@ const bookmarks = [
       { name: "XDA Forums", url: "https://xdaforums.com/" },
     ],
   },
+  // }}}
+
+  // Assembly {{{
   {
     title: "Assembly",
     links: [
@@ -25,6 +29,9 @@ const bookmarks = [
       { name: "Compiler Explorer GitHub", url: "https://github.com/compiler-explorer/compiler-explorer" },
     ],
   },
+  // }}}
+
+  // Arch {{{
   {
     title: "Arch",
     links: [
@@ -34,6 +41,9 @@ const bookmarks = [
       { name: "Wiki", url: "https://wiki.archlinux.org" },
     ],
   },
+  // }}}
+
+  // Banking {{{
   {
     title: "Banking",
     links: [
@@ -42,13 +52,22 @@ const bookmarks = [
       { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
     ],
   },
+  // }}}
+
+  // C lang {{{
   {
     title: "C lang",
     links: [
-      { name: "C gibberish to English", url: "https://cdecl.org/" },
+      { name: "C gibberish to English", url: "https://cdecl.org" },
+      { name: "Beej's Guide [C Network]", url: "https://beej.us/guide/bgnet/" },
+      { name: "Beej's Guide [C Programming]", url: "https://beej.us/guide/bgc/" },
+      { name: "Beej's Guide [C Reference]", url: "https://beej.us/guide/bgclr/" },
+
     ],
   },
-  // {{{ CYBER
+  // }}}
+
+  // CYBER {{{
   {
     title: "Cyber [CTF]",
     links: [
@@ -81,6 +100,7 @@ const bookmarks = [
       { name: "Conversion [Number]", url: "https://www.rapidtables.com/convert/number/index.html" },
       { name: "DNS leak test", url: "https://dnsleaktest.com" },
       { name: "DownDetector", url: "https://downdetector.com" },
+      { name: "Beej's Networking", url: "https://beej.us/guide/bgnet0/" },
       { name: "ip.me", url: "https://ip.me" },
       { name: "IsitDownRightNow", url: "https://isitdownrightnow.com" },
       { name: "MX Toolbox", url: "https://mxtoolbox.com" },
@@ -99,15 +119,21 @@ const bookmarks = [
     ],
   },
   // }}}
+
+  // Docs {{{
   {
     title: "Docs",
     links: [
       { name: "Cheat.sh", url: "https://cheat.sh" },
+      { name: "DevDocs", url: "https://devdocs.io" },
       { name: "Gentoo Wiki", url: "https://wiki.gentoo.org" },
       { name: "Linux Documentation", url: "https://linux.die.net" },
       { name: "Wikipedia", url: "https://wikipedia.org" },
     ],
   },
+  // }}}
+
+  // Google {{{
   {
     title: "Google",
     links: [
@@ -122,6 +148,9 @@ const bookmarks = [
       { name: "Photos", url: "https://photos.google.com" },
     ],
   },
+  // }}}
+
+  // Gov {{{
   {
     title: "Gov",
     links: [
@@ -131,6 +160,9 @@ const bookmarks = [
       { name: "Ujbuda", url: "https://ujbuda.hu" },
     ],
   },
+  // }}}
+
+  // Linux {{{
   {
     title: "Linux",
     links: [
@@ -141,6 +173,9 @@ const bookmarks = [
       { name: "Reddit", url: "https://reddit.com/r/linux" },
     ],
   },
+  // }}}
+
+  // Media {{{
   {
     title: "Media",
     links: [
@@ -153,6 +188,9 @@ const bookmarks = [
       { name: "Youtube", url: "https://youtube.com" },
     ],
   },
+  // }}}
+
+  // Meta {{{
   {
     title: "Meta",
     links: [
@@ -162,6 +200,9 @@ const bookmarks = [
       { name: "Messenger", url: "https://messenger.com" },
     ],
   },
+  // }}}
+
+  // Microsoft {{{
   {
     title: "Microsoft",
     links: [
@@ -175,12 +216,22 @@ const bookmarks = [
       { name: "OneDrive", url: "https://live.onedrive.com" },
     ],
   },
+  // }}}
+
+  // Mozilla {{{
   {
     title: "Mozilla",
     links: [
       { name: "Firefox Accounts", url: "https://accounts.firefox.com" },
+      { name: "Firefox CSS", url: "https://www.reddit.com/r/FirefoxCSS" },
+      { name: "Firefox CSS Store", url: "https://firefoxcss-store.github.io/" },
+      { name: "Toyfox CSS", url: "https://mrotherguy.github.io/ToyfoCSS/" },
+      { name: "Userchrome", url: "https://www.userchrome.org/" },
     ],
   },
+  // }}}
+
+  // News {{{
   {
     title: "News",
     links: [
@@ -189,6 +240,9 @@ const bookmarks = [
       { name: "Qubit", url: "https://qubit.hu" },
     ],
   },
+  // }}}
+
+  // Proton {{{
   {
     title: "Proton",
     links: [
@@ -198,6 +252,9 @@ const bookmarks = [
       { name: "VPN", url: "https://protonvpn.com" },
     ],
   },
+  // }}}
+
+  // Python {{{
   {
     title: "Python",
     links: [
@@ -207,6 +264,9 @@ const bookmarks = [
       { name: "Python", url: "https://python.org" },
     ],
   },
+  // }}}
+
+  // Reddit {{{
   {
     title: "Reddit",
     links: [
@@ -216,7 +276,9 @@ const bookmarks = [
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
     ],
   },
-  // {{{ RUST
+  // }}}
+
+  // RUST {{{
   {
     title: "Rust",
     links: [
@@ -248,6 +310,8 @@ const bookmarks = [
     ],
   },
   // }}}
+
+  // Scambait {{{
   {
     title: "Scambait",
     links: [
@@ -255,6 +319,9 @@ const bookmarks = [
       { name: "Scammer Info", url: "https://scammer.info" },
     ],
   },
+  // }}}
+
+  // Social {{{
   {
     title: "Social",
     links: [
@@ -264,7 +331,9 @@ const bookmarks = [
       { name: "Twitter", url: "https://twitter.com" },
     ],
   },
-  // {{{ TOOLS
+  // }}}
+
+  // Tools {{{
   {
     title: "Tools",
     links: [
@@ -298,8 +367,8 @@ const bookmarks = [
       { name: "FilterLists", url: "https://filterlists.com" },
       { name: "IP Leaks Info", url: "https://ipleak.net" },
       { name: "Privacy Tools", url: "https://privacytools.io" },
-      { name: "https://guide.yuuire.com/", url: "Yuuire Guide" },
       { name: "SSL Labs", url: "https://ssllabs.com" },
+      { name: "Yuuire Guide", url: "https://guide.yuuire.com" },
     ],
   },
   {
@@ -312,12 +381,19 @@ const bookmarks = [
     ],
   },
   // }}}
+
+  // Windor manager {{{
   {
-    title: "Qtile",
+    title: "Window manager",
     links: [
-      { name: "Documentation", url: "https://qtile.readthedocs.io/en/stable" },
-      { name: "GitHub", url: "https://github.com/qtile/qtile" },
-      { name: "Reddit", url: "https://reddit.com/r/qtile" },
+      { name: "Hyprland", url: "https://hyprland.org/" },
+      { name: "Hyprland - GitHub", url: "https://github.com/hyprwm/Hyprland" },
+      { name: "Hyprland - Reddit", url: "https://www.reddit.com/r/hyprland/" },
+      { name: "Hyprland - Wiki", url: "https://wiki.hyprland.org/" },
+      { name: "Qtile - Documentation", url: "https://qtile.readthedocs.io/en/stable" },
+      { name: "Qtile - GitHub", url: "https://github.com/qtile/qtile" },
+      { name: "Qtile - Reddit", url: "https://reddit.com/r/qtile" },
     ],
   },
+  // }}}
 ];
