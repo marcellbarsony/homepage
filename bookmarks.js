@@ -58,10 +58,10 @@ const bookmarks = [
   {
     title: "C lang",
     links: [
-      { name: "C gibberish to English", url: "https://cdecl.org" },
       { name: "Beej's Guide [C Network]", url: "https://beej.us/guide/bgnet/" },
       { name: "Beej's Guide [C Programming]", url: "https://beej.us/guide/bgc/" },
       { name: "Beej's Guide [C Reference]", url: "https://beej.us/guide/bgclr/" },
+      { name: "C gibberish to English", url: "https://cdecl.org" },
 
     ],
   },
@@ -218,7 +218,7 @@ const bookmarks = [
   },
   // }}}
 
-  // Mozilla {{{
+  // Mozilla Firefox {{{
   {
     title: "Mozilla",
     links: [
@@ -333,7 +333,7 @@ const bookmarks = [
   },
   // }}}
 
-  // Tools {{{
+  // TOOLS {{{
   {
     title: "Tools",
     links: [
