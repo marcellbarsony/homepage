@@ -1,5 +1,4 @@
 const bookmarks = [
-  // Android {{{
   {
     title: "Android",
     links: [
@@ -19,9 +18,6 @@ const bookmarks = [
       { name: "XDA Forums", url: "https://xdaforums.com/" },
     ],
   },
-  // }}}
-
-  // Assembly {{{
   {
     title: "Assembly",
     links: [
@@ -29,9 +25,6 @@ const bookmarks = [
       { name: "Compiler Explorer GitHub", url: "https://github.com/compiler-explorer/compiler-explorer" },
     ],
   },
-  // }}}
-
-  // Arch {{{
   {
     title: "Arch",
     links: [
@@ -41,9 +34,6 @@ const bookmarks = [
       { name: "Wiki", url: "https://wiki.archlinux.org" },
     ],
   },
-  // }}}
-
-  // Banking {{{
   {
     title: "Banking",
     links: [
@@ -52,9 +42,6 @@ const bookmarks = [
       { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
     ],
   },
-  // }}}
-
-  // C lang {{{
   {
     title: "C lang",
     links: [
@@ -65,9 +52,6 @@ const bookmarks = [
 
     ],
   },
-  // }}}
-
-  // CYBER {{{
   {
     title: "Cyber [CTF]",
     links: [
@@ -118,9 +102,6 @@ const bookmarks = [
       { name: "Threatpost", url: "https://threatpost.com" },
     ],
   },
-  // }}}
-
-  // Docs {{{
   {
     title: "Docs",
     links: [
@@ -131,9 +112,6 @@ const bookmarks = [
       { name: "Wikipedia", url: "https://wikipedia.org" },
     ],
   },
-  // }}}
-
-  // Google {{{
   {
     title: "Google",
     links: [
@@ -148,9 +126,6 @@ const bookmarks = [
       { name: "Photos", url: "https://photos.google.com" },
     ],
   },
-  // }}}
-
-  // Gov {{{
   {
     title: "Gov",
     links: [
@@ -160,9 +135,6 @@ const bookmarks = [
       { name: "Ujbuda", url: "https://ujbuda.hu" },
     ],
   },
-  // }}}
-
-  // Linux {{{
   {
     title: "Linux",
     links: [
@@ -173,9 +145,6 @@ const bookmarks = [
       { name: "Reddit", url: "https://reddit.com/r/linux" },
     ],
   },
-  // }}}
-
-  // Media {{{
   {
     title: "Media",
     links: [
@@ -188,9 +157,6 @@ const bookmarks = [
       { name: "Youtube", url: "https://youtube.com" },
     ],
   },
-  // }}}
-
-  // Meta {{{
   {
     title: "Meta",
     links: [
@@ -200,9 +166,6 @@ const bookmarks = [
       { name: "Messenger", url: "https://messenger.com" },
     ],
   },
-  // }}}
-
-  // Microsoft {{{
   {
     title: "Microsoft",
     links: [
@@ -216,9 +179,6 @@ const bookmarks = [
       { name: "OneDrive", url: "https://live.onedrive.com" },
     ],
   },
-  // }}}
-
-  // Mozilla Firefox {{{
   {
     title: "Mozilla",
     links: [
@@ -229,9 +189,6 @@ const bookmarks = [
       { name: "Userchrome", url: "https://www.userchrome.org/" },
     ],
   },
-  // }}}
-
-  // News {{{
   {
     title: "News",
     links: [
@@ -240,9 +197,6 @@ const bookmarks = [
       { name: "Qubit", url: "https://qubit.hu" },
     ],
   },
-  // }}}
-
-  // Proton {{{
   {
     title: "Proton",
     links: [
@@ -252,9 +206,6 @@ const bookmarks = [
       { name: "VPN", url: "https://protonvpn.com" },
     ],
   },
-  // }}}
-
-  // Python {{{
   {
     title: "Python",
     links: [
@@ -264,9 +215,6 @@ const bookmarks = [
       { name: "Python", url: "https://python.org" },
     ],
   },
-  // }}}
-
-  // Reddit {{{
   {
     title: "Reddit",
     links: [
@@ -276,9 +224,6 @@ const bookmarks = [
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
     ],
   },
-  // }}}
-
-  // RUST {{{
   {
     title: "Rust",
     links: [
@@ -309,9 +254,6 @@ const bookmarks = [
       { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
     ],
   },
-  // }}}
-
-  // Scambait {{{
   {
     title: "Scambait",
     links: [
@@ -319,9 +261,6 @@ const bookmarks = [
       { name: "Scammer Info", url: "https://scammer.info" },
     ],
   },
-  // }}}
-
-  // Social {{{
   {
     title: "Social",
     links: [
@@ -331,9 +270,6 @@ const bookmarks = [
       { name: "Twitter", url: "https://twitter.com" },
     ],
   },
-  // }}}
-
-  // TOOLS {{{
   {
     title: "Tools",
     links: [
@@ -380,9 +316,6 @@ const bookmarks = [
       { name: "Regex Tester", url: "https://regextester.com" },
     ],
   },
-  // }}}
-
-  // Windor manager {{{
   {
     title: "Window manager",
     links: [
@@ -395,5 +328,4 @@ const bookmarks = [
       { name: "Qtile - Reddit", url: "https://reddit.com/r/qtile" },
     ],
   },
-  // }}}
 ];
