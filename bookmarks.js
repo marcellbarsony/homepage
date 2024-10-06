@@ -1,5 +1,5 @@
 const bookmarks = [
-  {
+  { // Android {{{
     title: "Android",
     links: [
       { name: "Android Developer", url: "https://developer.android.com/" },
@@ -17,7 +17,7 @@ const bookmarks = [
       { name: "XDA Developers", url: "https://www.xda-developers.com/" },
       { name: "XDA Forums", url: "https://xdaforums.com/" },
     ],
-  },
+  }, // }}}
   {
     title: "Assembly",
     links: [
@@ -187,6 +187,17 @@ const bookmarks = [
       { name: "Firefox CSS Store", url: "https://firefoxcss-store.github.io/" },
       { name: "Toyfox CSS", url: "https://mrotherguy.github.io/ToyfoCSS/" },
       { name: "Userchrome", url: "https://www.userchrome.org/" },
+    ],
+  },
+  {
+    title: "Mozilla [MDN]",
+    links: [
+      { name: "MDN Web Docs", url: "https://developer.mozilla.org/en-US/" },
+      { name: "MDN Web Docs [CSS]", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+      { name: "MDN Web Docs [HTML]", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+      { name: "MDN Web Docs [HTTP]", url: "https://developer.mozilla.org/en-US/docs/Web/HTTP" },
+      { name: "MDN Web Docs [JavaScript]", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { name: "MDN Web Docs [Web technology]", url: "https://developer.mozilla.org/en-US/docs/Web" },
     ],
   },
   {
