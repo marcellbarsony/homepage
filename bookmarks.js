@@ -18,14 +18,14 @@ const bookmarks = [
       { name: "XDA Forums", url: "https://xdaforums.com/" },
     ],
   }, // }}}
-  {
+  { // Assembly {{{
     title: "Assembly",
     links: [
       { name: "Compiler Explorer", url: "https://godbolt.org" },
       { name: "Compiler Explorer GitHub", url: "https://github.com/compiler-explorer/compiler-explorer" },
     ],
-  },
-  {
+  }, // }}}
+  { // Arch {{{
     title: "Arch",
     links: [
       { name: "Linux", url: "https://archlinux.org" },
@@ -33,16 +33,16 @@ const bookmarks = [
       { name: "Reddit", url: "https://reddit.com/r/archlinux" },
       { name: "Wiki", url: "https://wiki.archlinux.org" },
     ],
-  },
-  {
+  }, // }}}
+  { // Banking {{{
     title: "Banking",
     links: [
       { name: "OTP SZEP", url: "https://magan.szepkartya.otpportalok.hu" },
       { name: "Revolut", url: "https://revolut.com" },
       { name: "UniCredit", url: "https://hu.unicreditbanking.eu" },
     ],
-  },
-  {
+  }, // }}}
+  { // C lang {{{
     title: "C lang",
     links: [
       { name: "Beej's Guide [C Network]", url: "https://beej.us/guide/bgnet/" },
@@ -51,8 +51,8 @@ const bookmarks = [
       { name: "C gibberish to English", url: "https://cdecl.org" },
 
     ],
-  },
-  {
+  }, // }}}
+  { // Cyber [CTF] {{{
     title: "Cyber [CTF]",
     links: [
       { name: "bWAPP", url: "https://itsecgames.com" },
@@ -65,8 +65,8 @@ const bookmarks = [
       { name: "TryHackMe", url: "https://tryhackme.com" },
       { name: "VulnHub", url: "https://vulnhub.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Cyber [Tools] {{{
     title: "Cyber [Tools]",
     links: [
       { name: "CVE", url: "https://cve.mitre.org" },
@@ -77,8 +77,8 @@ const bookmarks = [
       { name: "Revshells", url: "https://revshells.com" },
       { name: "VirusTotal", url: "https://virustotal.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Cyber [Network] {{{
     title: "Cyber [Network]",
     links: [
       { name: "Conversion [Number]", url: "https://www.rapidtables.com/convert/number/index.html" },
@@ -90,8 +90,8 @@ const bookmarks = [
       { name: "MX Toolbox", url: "https://mxtoolbox.com" },
       { name: "Subnet Calculator", url: "https://solarwinds.com/free-tools/advanced-subnet-calculator" },
     ],
-  },
-  {
+  }, // }}}
+  { // Cyber [News] {{{
     title: "Cyber [News]",
     links: [
       { name: "BleepingComputer", url: "https://bleepingcomputer.com" },
@@ -101,8 +101,8 @@ const bookmarks = [
       { name: "The Record", url: "https://therecord.media" },
       { name: "Threatpost", url: "https://threatpost.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Docs {{{
     title: "Docs",
     links: [
       { name: "Cheat.sh", url: "https://cheat.sh" },
@@ -111,22 +111,22 @@ const bookmarks = [
       { name: "Linux Documentation", url: "https://linux.die.net" },
       { name: "Wikipedia", url: "https://wikipedia.org" },
     ],
-  },
-  {
+  }, // }}}
+  { // Google {{{
     title: "Google",
     links: [
       { name: "Accounts", url: "https://accounts.google.com" },
-      { name: "Bard", url: "https://bard.google.com" },
       { name: "Drive", url: "https://drive.google.com" },
       { name: "Flights", url: "https://flights.google.com" },
+      { name: "Gemini", url: "https://gemini.google.com" },
       { name: "Gmail", url: "https://mail.google.com" },
       { name: "Images", url: "https://images.google.com" },
       { name: "Maps", url: "https://maps.google.com" },
       { name: "MyMaps", url: "https://mymaps.google.com" },
       { name: "Photos", url: "https://photos.google.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Gov {{{
     title: "Gov",
     links: [
       { name: "Konzuli szolgalat", url: "https://konzuliszolgalat.kormany.hu" },
@@ -134,18 +134,25 @@ const bookmarks = [
       { name: "Ugyfelkapu", url: "https://ugyfelkapu.gov.hu" },
       { name: "Ujbuda", url: "https://ujbuda.hu" },
     ],
-  },
-  {
+  }, // }}}
+  { // Linux {{{
     title: "Linux",
     links: [
       { name: "Crontab guru", url: "https://crontab.guru" },
       { name: "Distrowatch", url: "https://distrowatch.com" },
+      { name: "Hyprland", url: "https://hyprland.org/" },
+      { name: "Hyprland - GitHub", url: "https://github.com/hyprwm/Hyprland" },
+      { name: "Hyprland - Reddit", url: "https://www.reddit.com/r/hyprland/" },
+      { name: "Hyprland - Wiki", url: "https://wiki.hyprland.org/" },
       { name: "Kernel", url: "https://kernel.org" },
       { name: "Linux Journey", url: "https://linuxjourney.com" },
+      { name: "Qtile - Documentation", url: "https://qtile.readthedocs.io/en/stable" },
+      { name: "Qtile - GitHub", url: "https://github.com/qtile/qtile" },
+      { name: "Qtile - Reddit", url: "https://reddit.com/r/qtile" },
       { name: "Reddit", url: "https://reddit.com/r/linux" },
     ],
-  },
-  {
+  }, // }}}
+  { // Media {{{
     title: "Media",
     links: [
       { name: "Odysee", url: "https://odysee.com" },
@@ -156,8 +163,8 @@ const bookmarks = [
       { name: "Twitch", url: "https://twitch.tv" },
       { name: "Youtube", url: "https://youtube.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Meta {{{
     title: "Meta",
     links: [
       { name: "Facebook", url: "https://facebook.com" },
@@ -165,8 +172,8 @@ const bookmarks = [
       { name: "Instagram", url: "https://instagram.com" },
       { name: "Messenger", url: "https://messenger.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Microsoft {{{
     title: "Microsoft",
     links: [
       { name: "Accounts", url: "https://account.microsoft.com" },
@@ -178,37 +185,39 @@ const bookmarks = [
       { name: "LinkedIn Learning", url: "https://linkedin.com/learning" },
       { name: "OneDrive", url: "https://live.onedrive.com" },
     ],
-  },
-  {
-    title: "Mozilla",
+  }, // }}}
+  { // Firefox {{{
+    title: "Firefox",
     links: [
-      { name: "Firefox Accounts", url: "https://accounts.firefox.com" },
-      { name: "Firefox CSS", url: "https://www.reddit.com/r/FirefoxCSS" },
-      { name: "Firefox CSS Store", url: "https://firefoxcss-store.github.io/" },
+      { name: "CSS Store", url: "https://firefoxcss-store.github.io/" },
       { name: "Toyfox CSS", url: "https://mrotherguy.github.io/ToyfoCSS/" },
       { name: "Userchrome", url: "https://www.userchrome.org/" },
     ],
-  },
-  {
-    title: "Mozilla [MDN]",
+  }, // }}}
+  { // Mozilla {{{
+    title: "Mozilla",
     links: [
-      { name: "MDN Web Docs", url: "https://developer.mozilla.org/en-US/" },
-      { name: "MDN Web Docs [CSS]", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-      { name: "MDN Web Docs [HTML]", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
-      { name: "MDN Web Docs [HTTP]", url: "https://developer.mozilla.org/en-US/docs/Web/HTTP" },
-      { name: "MDN Web Docs [JavaScript]", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-      { name: "MDN Web Docs [Web technology]", url: "https://developer.mozilla.org/en-US/docs/Web" },
+      { name: "Firefox Accounts", url: "https://accounts.firefox.com" },
+      { name: "MDN Docs", url: "https://developer.mozilla.org/en-US/" },
+      { name: "MDN Docs [CSS]", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+      { name: "MDN Docs [HTML]", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+      { name: "MDN Docs [HTTP]", url: "https://developer.mozilla.org/en-US/docs/Web/HTTP" },
+      { name: "MDN Docs [JavaScript]", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { name: "MDN Docs [Privacy]", url: "https://developer.mozilla.org/en-US/docs/Web/Privacy" },
+      { name: "MDN Docs [Security]", url: "https://developer.mozilla.org/en-US/docs/Web/Security" },
+      { name: "MDN Docs [Web technology]", url: "https://developer.mozilla.org/en-US/docs/Web" },
+      { name: "Mozilla Blog", url: "https://blog.mozilla.org/en/" },
     ],
-  },
-  {
+  }, // }}}
+  { // News {{{
     title: "News",
     links: [
       { name: "/r/worldnews", url: "https://reddit.com/r/worldnews" },
       { name: "Telex", url: "https://telex.hu" },
       { name: "Qubit", url: "https://qubit.hu" },
     ],
-  },
-  {
+  }, // }}}
+  { // Proton {{{
     title: "Proton",
     links: [
       { name: "Calendar", url: "https://proton.me/calendar" },
@@ -216,8 +225,8 @@ const bookmarks = [
       { name: "Mail", url: "https://proton.me/mail" },
       { name: "VPN", url: "https://protonvpn.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Python {{{
     title: "Python",
     links: [
       { name: "Arch Wiki", url: "https://wiki.archlinux.org/title/Python" },
@@ -225,25 +234,16 @@ const bookmarks = [
       { name: "PyPI", url: "https://pypi.org" },
       { name: "Python", url: "https://python.org" },
     ],
-  },
-  {
-    title: "Reddit",
-    links: [
-      { name: "Front page", url: "https://reddit.com/" },
-      { name: "/r/hungary", url: "https://reddit.com/r/hungary" },
-      { name: "/r/neovim", url: "https://reddit.com/r/neovim" },
-      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
-    ],
-  },
-  {
+  }, // }}}
+  { // Rust {{{
     title: "Rust",
     links: [
       { name: "Rust", url: "https://rust-lang.org" },
       { name: "Foundation", url: "https://foundation.rust-lang.org" },
       { name: "Reddit", url: "https://reddit.com/r/rust" },
     ],
-  },
-  {
+  }, // }}}
+  { // Rust [Docs] {{{
     title: "Rust [Docs]",
     links: [
       { name: "Learn Rust", url: "https://rust-lang.org/learn" },
@@ -255,8 +255,8 @@ const bookmarks = [
       { name: "The Rust Reference", url: "https://doc.rust-lang.org/stable/reference/index.html" },
       { name: "The Rust Style Guide", url: "https://doc.rust-lang.org/stable/style-guide/index.html" },
     ],
-  },
-  {
+  }, // }}}
+  { // Rust [Libs] {{{
     title: "Rust [Libs]",
     links: [
       { name: "crates.io", url: "https://crates.io" },
@@ -264,24 +264,18 @@ const bookmarks = [
       { name: "lib.rs", url: "https://lib.rs" },
       { name: "Std library", url: "https://doc.rust-lang.org/stable/std" },
     ],
-  },
-  {
-    title: "Scambait",
-    links: [
-      { name: "r/Scambait", url: "https://www.reddit.com/r/scambait" },
-      { name: "Scammer Info", url: "https://scammer.info" },
-    ],
-  },
-  {
+  }, // }}}
+  { // Social {{{
     title: "Social",
     links: [
       { name: "Discord", url: "https://discordapp.com" },
       { name: "Mastodon", url: "https://mastodon.social" },
       { name: "Nitter", url: "https://nitter.com" },
+      { name: "Reddit", url: "https://reddit.com/" },
       { name: "Twitter", url: "https://twitter.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Tools {{{
     title: "Tools",
     links: [
       { name: "Bitwarden", url: "https://vault.bitwarden.com" },
@@ -291,10 +285,11 @@ const bookmarks = [
       { name: "OpenStreetMap", url: "https://openstreetmap.org" },
       { name: "Overpass turbo", url: "https://overpass-turbo.eu" },
       { name: "Rapidtables", url: "https://www.rapidtables.com" },
+      { name: "Scammer Info", url: "https://scammer.info" },
       { name: "Translate [DeepL]", url: "https://deepl.com/translator" },
     ],
-  },
-  {
+  }, // }}}
+  { // Tools [AI] {{{
     title: "Tools [AI]",
     links: [
       { name: "Bard", url: "https://bard.google.com" },
@@ -302,8 +297,8 @@ const bookmarks = [
       { name: "Bing Image Creator", url: "https://bing.com/images/create" },
       { name: "ChatGPT", url: "https://chat.openai.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Tools [Privacy] {{{
     title: "Tools [Privacy]",
     links: [
       { name: "Alternative front-ends", url: "https://github.com/mendel5/alternative-front-ends" },
@@ -317,8 +312,8 @@ const bookmarks = [
       { name: "SSL Labs", url: "https://ssllabs.com" },
       { name: "Yuuire Guide", url: "https://guide.yuuire.com" },
     ],
-  },
-  {
+  }, // }}}
+  { // Tools [Regex] {{{
     title: "Tools [Regex]",
     links: [
       { name: "Debuggex", url: "https://debuggex.com" },
@@ -326,17 +321,5 @@ const bookmarks = [
       { name: "RegExr", url: "https://regexr.com" },
       { name: "Regex Tester", url: "https://regextester.com" },
     ],
-  },
-  {
-    title: "Window manager",
-    links: [
-      { name: "Hyprland", url: "https://hyprland.org/" },
-      { name: "Hyprland - GitHub", url: "https://github.com/hyprwm/Hyprland" },
-      { name: "Hyprland - Reddit", url: "https://www.reddit.com/r/hyprland/" },
-      { name: "Hyprland - Wiki", url: "https://wiki.hyprland.org/" },
-      { name: "Qtile - Documentation", url: "https://qtile.readthedocs.io/en/stable" },
-      { name: "Qtile - GitHub", url: "https://github.com/qtile/qtile" },
-      { name: "Qtile - Reddit", url: "https://reddit.com/r/qtile" },
-    ],
-  },
+  }, // }}}
 ];
