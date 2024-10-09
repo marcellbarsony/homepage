@@ -190,8 +190,10 @@ const bookmarks = [
     title: "Firefox",
     links: [
       { name: "CSS Store", url: "https://firefoxcss-store.github.io/" },
+      { name: "CSS Store 2", url: "https://trickypr.github.io/FirefoxCSS-Store.github.io/" },
       { name: "Toyfox CSS", url: "https://mrotherguy.github.io/ToyfoCSS/" },
       { name: "Userchrome", url: "https://www.userchrome.org/" },
+      { name: "Anatomy of an extension", url: "https://palant.info/2022/08/10/anatomy-of-a-basic-extension/" },
     ],
   }, // }}}
   { // Mozilla {{{
